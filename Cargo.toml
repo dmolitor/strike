@@ -1,0 +1,12 @@
+[package]
+name = "strike"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+linfa = "0.6.1"
+linfa-logistic = "0.6.1"
+linfa-preprocessing = "0.6.1"
+linfa-datasets = { version = "0.6.1", features = ["winequality"] }
+ndarray = "0.15.6"
+polars = { version = "0.30.0", features = ["abs", "ndarray"]}
