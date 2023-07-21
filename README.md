@@ -3,7 +3,7 @@
 Strike implements 1:1, nearest neighbor, propensity score matching with replacement.
 The target estimand is the Average Treatment Effect on the Treated (ATT),
 which is the average effect of treatment for those who receive treatment:
-$\frac{1}{N^T}\sum_{i = 1}^{N^T}Y_i(1) - Y_i(0)$. Strike also implements the
+$$\frac{1}{N^T}\sum_{i = 1}^{N^T}(Y_i(1) - Y_i(0)).$$ Strike also implements the
 consistent estimator for the variance of the matching estimator for the ATT, as
 proposed in "Large Sample Properties of Matching Estimators for Average
 Treatment Effects" (Abadie and Imbens, 2006).
